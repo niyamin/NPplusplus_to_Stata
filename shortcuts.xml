@@ -10,7 +10,7 @@
             <Action type="3" message="1601" wParam="0" lParam="0" sParam="(?&lt;=\*##s)[^\n]*\n\K[\s\S]*(?=\*##e)" />
             <Action type="3" message="1625" wParam="0" lParam="2" sParam="" />
             <Action type="3" message="1702" wParam="0" lParam="768" sParam="" />
-            <Action type="3" message="1701" wParam="0" lParam="1723" sParam="" />
+            <Action type="3" message="1701" wParam="0" lParam="1" sParam="" />
         </Macro>
         <Macro name="StartingPoint" Ctrl="yes" Alt="yes" Shift="no" Key="90">
             <Action type="0" message="2453" wParam="0" lParam="0" sParam="" />
@@ -90,7 +90,7 @@
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
-						<Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
@@ -120,7 +120,7 @@
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
-						<Action type="1" message="2170" wParam="0" lParam="0" sParam="// " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="// " />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000D;" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="&#x000A;" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="//" />
@@ -152,7 +152,7 @@
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
-						<Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
             <Action type="1" message="2170" wParam="0" lParam="0" sParam="=" />
@@ -213,6 +213,8 @@
     </UserDefinedCommands>
     <PluginCommands>
         <PluginCommand moduleName="IndentByFold.dll" internalID="0" Ctrl="yes" Alt="no" Shift="no" Key="123" />
+        <PluginCommand moduleName="NppExport.dll" internalID="4" Ctrl="yes" Alt="no" Shift="yes" Key="67" />
+        <PluginCommand moduleName="ComparePlugin.dll" internalID="0" Ctrl="yes" Alt="yes" Shift="no" Key="52" />
     </PluginCommands>
     <ScintillaKeys />
 </NotepadPlus>
